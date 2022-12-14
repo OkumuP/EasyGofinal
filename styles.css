@@ -369,9 +369,9 @@ button:hover{
 .footer{
     width: 100%;
     height: 13vh;
-    background-color: #F66B0E;
+    background-color: #a04203;
     display:flex;
-    margin: 10px;
+    /* margin: 10px; */
     font-size: small;
     align-items: center;
     justify-content: space-evenly;
@@ -394,6 +394,10 @@ button:hover{
 .services ul{
     list-style-type: none;
     line-height: normal;
+    cursor: pointer;
+}
+.services li:hover{
+    color: blue;
 }
 .socials{
     width: 25%;
@@ -418,4 +422,20 @@ button:hover{
     width: 80px;
     height: 30px;
     margin: 6px; 
+}
+/* Contacts Page */
+.contacts-page{
+    width:100%;
+    height:100vh;
+    margin: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.contacts-page textarea{
+    height: 100px;
+    width: 40%;
+    outline: none;
+    font-size: larger;
+    font-style: initial;
+    font-family: inherit;
 }
