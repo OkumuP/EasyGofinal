@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyGo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header-container">
+        <nav class="nav-bar">
+            <div class="logo"> AutoLaxx.</div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href= '#'class="active">Home</a></li>
+                    <li><a href='http://www.google.com' target="_blank">About</a></li>
+                    <li><a href='#'>Services</a>
+                        <div class="services-menu">
+                            <ul>
+                                <li><a>Movers</a></li>
+                                <li><a >Drivers</a></li>
+                                <li><a>Mechanics</a></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li><a href='#'>Contacts</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <img src="" />
+            </div>
+            <div class="sign-up">Sign Up</div>
+        </nav>
+
+    </header>
+    <!-- Main -->
+    <main>
+        <section class="container">
+            <div class="moving" id="moving">
+                <h1>Moving</h1>
+                <p>We offer professional services to move you to a location of your choice. We handly you properties with utmost care and insure incase of any damage</p>
+                <button>Request for services</button>
+            </div>
+            <div class="driver" >
+                <h1>Driver Services</h1>
+                <p>Our team of drivers will drive you to a destination of your choice. </p>
+                <button id="driver" >Get a Driver</button>
+            </div>
+            <div class="mechanic" id="mechanic">
+                <h1>Mechanic Anywhere</h1>
+                <p>Cars breakdown anywhere, we find you and fix it. <span>Completing the journey is our joy</span></p>
+                
+                <button>Dial a Mechanic</button>
+            </div>
+        </section>
+        <section class="register" id="register">
+            <div class="regform"> <h1> Registration Form</h1></div>
+            <div class="get-service">
+                <form>
+                    <div id="name"> 
+                        <h2 class="name">Name</h2>
+                        <input class="firstname" type="text" name="first-name"><br>
+                        <label class="firstlabel">First Name</label>
+                        <input class="lastname" type="text" name="first-name"><br>
+                        <label class="lastlabel">Last Name</label>
+                    </div>
+                        <h2 class="name">Company</h2>
+                        <input class="company" type="text" name="company">
+
+                        <h2 class="name">E-mail</h2>
+                        <input class="email" type="text" name="email">
+
+                        <h2 class="name">Phone</h2>
+                        <input class="code" type="text" name="area-code"><br>
+                        <label class="area-code"> Country Code</label>
+                        <input class="number" type="text" name="phone"><br>
+                        <label class="phone-number">Phone Number</label>
+
+                        <h2 class="name">Service</h2>
+                        <select class="option" name="service">
+                            <option disabled="disabled" selected="selected">Choose a Service</option>
+                            <option> Moving Services</option>
+                            <option>Driver Services</option>
+                            <option>Mechanic Services</option>
+                        </select>
+                        <h2 class="customer">Payment Option</h2>
+                        <label class="radio">
+                        <input class="mpesa" type="radio"  name="mpesa">
+                        <span class="payment2">M-pesa</span>
+                        <!-- </label> -->
+                        <!-- <label class="radio"> -->
+                            <input class="cash" type="radio"  name="cash">
+                            <span class="payment2">Cash</span>
+                            </label>
+                        <button type="submit">Submit</button>
+
+                </form>
+            </div>
+
+            
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contacts">
+            <h4>Contacts</h4>
+            <p> Mobile +254721291615/+254720985169/+254706715650</p>
+            <p>e-mail - info@easygo.co.ke</p>
+        </div>
+        <div class="services">
+            <ul>
+                <h4> Services</h4>
+                <li>Movers</li>
+                <li>Get driver</li>
+                <li>Transport</li>
+            </ul>
+        </div>
+        <div class="socials">
+            <h4>Socials</h4>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.jfif" alt="Facebook" class="socialicons"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter" class="socialicons"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram" class="socialicons"></a>
+        </div>
+        <div class="mobile-app">
+            <h4>Download Our Mobile App</h4>
+            <a href="#" ><img src="images/google play.png" alt="Google Play store" class="appicons"> </a>
+            <a href="#" ><img src="images/appstore.png" alt="App store" class="appicons"> </a>
+        </div>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
